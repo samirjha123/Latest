@@ -20,13 +20,7 @@ recipe "java::oracle_rpm", "Installs the Oracle RPM flavor of Java"
     scientific
     fedora
     amazon
-    arch
     oracle
-    freebsd
-    windows
-    suse
-    xenserver
-    smartos
 }.each do |os|
   supports os
 end
